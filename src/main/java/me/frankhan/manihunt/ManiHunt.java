@@ -22,6 +22,8 @@ public final class ManiHunt extends JavaPlugin {
         version = getServer().getBukkitVersion().split("-")[0].split("\\.")[1];
         Main.Load();
         Area.Load();
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
         if (!new File(getDataFolder(),"config.yml").exists()) {
             saveResource("config.yml",true);
         }

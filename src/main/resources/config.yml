@@ -18,3 +18,4 @@ Area:
   ElytraCooldown(tick): 200
   Totem_of_Undying: true
   World:
+    - 'world'
