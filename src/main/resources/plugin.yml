@@ -1,0 +1,7 @@
+name: ManiHunt
+version: ${project.version}
+main: me.frankhan.manihunt.ManiHunt
+authors: [ FrankHan ]
+commands:
+  s:
+  c:

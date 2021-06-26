@@ -1,0 +1,20 @@
+Mode: 'Area'
+Lobby:
+  Rank:
+Area:
+  maxArea: 1
+  maxSpeeder: 1
+  maxHunter: 4
+  Speeder:
+    Kill: 200
+    Death: 100
+    Achievement: 100
+  Hunter:
+    Kill: 75
+    Death: 50
+    Achievement: 75
+    ReviveCooldown(tick): 60
+  Elytra: true
+  ElytraCooldown(tick): 200
+  Totem_of_Undying: true
+  World:
