@@ -29,7 +29,7 @@ jobs:
       - name: Compile Minecraft Spigot or Paper (BuildTools)
         # You may pin to the exact commit or the version.
         # uses: SpraxDev/Action-SpigotMC@4d6b6af2701066885f12ec42607712ba0782cadd
-        uses: FrankHan/Action-SpigotMC@v2
+        uses: actions/checkout@v2
         with:
           # Versions to build (sperate multiple with ',')
           versions: latest # optional, default is latest
