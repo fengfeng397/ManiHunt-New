@@ -1,6 +1,5 @@
 package me.frankhan.manihunt.Runnable;
 
-import me.frankhan.manihunt.Class.Area;
 import me.frankhan.manihunt.Tools.Color;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
@@ -13,7 +12,7 @@ import java.util.Map;
 
 public class Revive extends BukkitRunnable {
     public static Map<Player,Integer> player = new HashMap<>();
-    public static Map<Player, Area> area = new HashMap<>();
+    public static Map<Player, me.frankhan.manihunt.Class.area> area = new HashMap<>();
     @Override
     public void run() {
         if (!player.isEmpty()) {
